@@ -1,77 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>shopping-cart</title>
-    <link rel="stylesheet" href="./css/index.css">
-</head>
-<body>
-
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
     <div class="shopping-cart"><h1>Your Products</h1></div>
 
     <div class="container">
-
-        <div class="product-card"> 
-            <div class="card-details">
-                <div class="image">
-                    <img src="./img/pexels-aditya-aiyar-615049-1407354.jpg" alt="" class="img">
-                </div>
-                <div class="product-name">
-                    <h2 class="Item-Name">Aiyar sneakers</h2>
-                </div>
-                <div class="product-price"><p>$130</p></div>
-                <button class="addToCart">Add to cart</button>
+      <div class="grid-two">
+        <div class="product-card">
+          <div class="card-details">
+            <div class="image">
+              <img
+                src="./img/pexels-aditya-aiyar-615049-1407354.jpg"
+                alt=""
+                class="img"
+              />
             </div>
+            <div class="product-name">
+              <h2 class="Item-Name">Aiyar sneakers</h2>
+            </div>
+            <div class="product-price"><p>$130</p></div>
+            <button class="addToCart">Add to cart</button>
+          </div>
         </div>
 
-        <div class="product-card"> 
-            <div class="card-details">
-                <div class="image">
-                    <img src="./img/pexels-marleneleppanen-1183266.jpg" alt="" class="img">
-                </div>
-                <div class="product-name">
-                    <h2 class="Item-Name">Yellow Sweater</h2>
-                </div>
-                <div class="product-price"><p>$200</p></div>
-                <button class="addToCart">Add to cart</button>
+        <div class="product-card">
+          <div class="card-details">
+            <div class="image">
+              <img
+                src="./img/pexels-marleneleppanen-1183266.jpg"
+                alt=""
+                class="img"
+              />
             </div>
+            <div class="product-name">
+              <h2 class="Item-Name">Yellow Sweater</h2>
+            </div>
+            <div class="product-price"><p>$200</p></div>
+            <button class="addToCart">Add to cart</button>
+          </div>
         </div>
 
-        <div class="product-card"> 
-            <div class="card-details">
-                <div class="image">
-                    <img src="./img/pexels-melvin-buezo-1253763-2529146.jpg" alt="" class="img">
-                </div>
-                <div class="product-name">
-                    <h2 class="Item-Name">Air Nike</h2>
-                </div>
-                <div class="product-price"><p>$230</p></div>
-                <button class="addToCart">Add to cart</button>
+        <div class="product-card">
+          <div class="card-details">
+            <div class="image">
+              <img
+                src="./img/pexels-melvin-buezo-1253763-2529146.jpg"
+                alt=""
+                class="img"
+              />
             </div>
+            <div class="product-name">
+              <h2 class="Item-Name">Air Nike</h2>
+            </div>
+            <div class="product-price"><p>$230</p></div>
+            <button class="addToCart">Add to cart</button>
+          </div>
         </div>
 
-        <div class="product-card"> 
-            <div class="card-details">
-                <div class="image">
-                    <img src="./img/pexels-melvin-buezo-1253763-2529148.jpg" alt="" class="img">
-                </div>
-                <div class="product-name">
-                    <h2 class="Item-Name">Nike sneakers - just do it</h2>
-                </div>
-                <div class="product-price"><p>$400</p></div>
-                <button class="addToCart">Add to cart</button>
+        <div class="product-card">
+          <div class="card-details">
+            <div class="image">
+              <img
+                src="./img/pexels-melvin-buezo-1253763-2529148.jpg"
+                alt=""
+                class="img"
+              />
             </div>
+            <div class="product-name">
+              <h2 class="Item-Name">Nike sneakers - just do it</h2>
+            </div>
+            <div class="product-price"><p>$400</p></div>
+            <button class="addToCart">Add to cart</button>
+          </div>
         </div>
+      </div>
     </div>
 
     <div class="cart-section">
-        <h1>Your cart</h1>
+      <h1>Your cart</h1>
     </div>
 
     <div class="cart-container">
-
-         <!-- <div class="cart-product">
+       <!-- <div class="cart-product">
             <div class="cart-image">
                 <img src="./img/pexels-melvin-buezo-1253763-2529148.jpg" alt="" class="cart-img">
             </div>
@@ -83,25 +98,18 @@
                 </div>
                 <button class="delete-btn"><h3>Delete</h3></button>
             </div>
-        </div>  -->
-
-
-        
-    
-
+        </div>   -->
     </div>
 
+    <div class="total">
+      <h1>Total</h1>
+      <h2 class="total-price"></h2>
+    </div>
 
-
- <div class="total">
-            <h1> Total  </h1>
-            <h2 class="total-price"></h2>
-            </div> 
-
-
-    
-   
+    <div class="btn-purchase">
+        <button class="purchase">Purchase</button>
+    </div>
 
     <script src="./js/index.js"></script>
-</body>
+  </body>
 </html>
